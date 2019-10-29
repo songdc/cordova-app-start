@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.snowdogcode.coredover" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="SpinnerDialog">
+        <param name="android-package" value="com.greybax.spinnerdialog.SpinnerDialog" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="android-package" value="NativeStorage" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="io.sqlc.SQLitePlugin" />
+    </feature>
+    <feature name="EmailComposer">
+        <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
+    </feature>
+    <name>含羞草.beta.0.1</name>
+    <description>
+        Example app to demonstrate Cordova polyfills
+    </description>
+    <author email="contact@snowdogcode.com" href="https://snowdogcode.com">
+        Snowdog Code
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="http://apache.org" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="skype:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="market:*" />
+    <splash density="land-ldpi" src="res/splashscreens/android/splash-land-ldpi.png" />
+    <splash density="land-mdpi" src="res/splashscreens/android/splash-land-mdpi.png" />
+    <splash density="land-hdpi" src="res/splashscreens/android/splash-land-hdpi.png" />
+    <splash density="land-xhdpi" src="res/splashscreens/android/splash-land-xhdpi.png" />
+    <splash density="land-xxhdpi" src="res/splashscreens/android/splash-land-xxhdpi.png" />
+    <splash density="land-xxxhdpi" src="res/splashscreens/android/splash-land-xxxhdpi.png" />
+    <splash density="port-ldpi" src="res/splashscreens/android/splash-port-ldpi.png" />
+    <splash density="port-mdpi" src="res/splashscreens/android/splash-port-mdpi.png" />
+    <splash density="port-hdpi" src="res/splashscreens/android/splash-port-hdpi.png" />
+    <splash density="port-xhdpi" src="res/splashscreens/android/splash-port-xhdpi.png" />
+    <splash density="port-xxhdpi" src="res/splashscreens/android/splash-port-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="res/splashscreens/android/splash-port-xxxhdpi.png" />
+    <icon background="res/icons/android/ldpi-background.png" density="ldpi" foreground="res/icons/android/ldpi-foreground.png" />
+    <icon background="res/icons/android/mdpi-background.png" density="mdpi" foreground="res/icons/android/mdpi-foreground.png" />
+    <icon background="res/icons/android/hdpi-background.png" density="hdpi" foreground="res/icons/android/hdpi-foreground.png" />
+    <icon background="res/icons/android/xhdpi-background.png" density="xhdpi" foreground="res/icons/android/xhdpi-foreground.png" />
+    <icon background="res/icons/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icons/android/xxhdpi-foreground.png" />
+    <icon background="res/icons/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icons/android/xxxhdpi-foreground.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-targetSdkVersion" value="28" />
+</widget>

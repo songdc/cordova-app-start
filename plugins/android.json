@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-email-composer": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-native-spinner": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-nativestorage": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    },
+    "cordova-sqlite-ext": {
+      "PACKAGE_NAME": "com.snowdogcode.coredover"
+    }
+  },
+  "dependent_plugins": {}
+}

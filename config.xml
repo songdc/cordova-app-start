@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.snowdogcode.coredover" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>app.beta.0.1</name>
+    <description>
+        Example app to demonstrate Cordova polyfills
+    </description>
+    <author email="contact@snowdogcode.com" href="https://snowdogcode.com">
+        Snowdog Code
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-dialogs" spec="latest" />
+    <plugin name="cordova-plugin-email-composer" spec="latest" />
+    <plugin name="cordova-plugin-inappbrowser" spec="latest" />
+	<plugin name="cordova-plugin-native-spinner" spec="latest" />
+	<plugin name="cordova-plugin-nativestorage" spec="latest" />
+    <plugin name="cordova-plugin-network-information" spec="latest" />
+    <plugin name="cordova-plugin-splashscreen" spec="latest" />
+    <plugin name="cordova-sqlite-ext" spec="latest" />
+    <plugin name="cordova-plugin-whitelist" spec="latest" />
+    <access origin="*" />
+	<allow-navigation href="http://apache.org" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="skype:*" />
+    <allow-intent href="mailto:*" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+		<preference name="android-minSdkVersion" value="21" />
+		<preference name="android-targetSdkVersion" value="28" />
+	    <splash src="res/splashscreens/android/splash-land-ldpi.png" density="land-ldpi" />
+	    <splash src="res/splashscreens/android/splash-land-mdpi.png" density="land-mdpi" />
+		<splash src="res/splashscreens/android/splash-land-hdpi.png" density="land-hdpi" />
+	    <splash src="res/splashscreens/android/splash-land-xhdpi.png" density="land-xhdpi" />
+	    <splash src="res/splashscreens/android/splash-land-xxhdpi.png" density="land-xxhdpi" />
+	    <splash src="res/splashscreens/android/splash-land-xxxhdpi.png" density="land-xxxhdpi" />
+	    <splash src="res/splashscreens/android/splash-port-ldpi.png" density="port-ldpi" />
+	    <splash src="res/splashscreens/android/splash-port-mdpi.png" density="port-mdpi" />
+	    <splash src="res/splashscreens/android/splash-port-hdpi.png" density="port-hdpi" />
+	    <splash src="res/splashscreens/android/splash-port-xhdpi.png" density="port-xhdpi" />
+	    <splash src="res/splashscreens/android/splash-port-xxhdpi.png" density="port-xxhdpi" />
+	    <splash src="res/splashscreens/android/splash-port-xxxhdpi.png" density="port-xxxhdpi" />
+		<icon background="res/icons/android/ldpi-background.png" density="ldpi" foreground="res/icons/android/ldpi-foreground.png" />
+		<icon background="res/icons/android/mdpi-background.png" density="mdpi" foreground="res/icons/android/mdpi-foreground.png" />
+		<icon background="res/icons/android/hdpi-background.png" density="hdpi" foreground="res/icons/android/hdpi-foreground.png" />
+		<icon background="res/icons/android/xhdpi-background.png" density="xhdpi" foreground="res/icons/android/xhdpi-foreground.png" />
+		<icon background="res/icons/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icons/android/xxhdpi-foreground.png" />
+		<icon background="res/icons/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icons/android/xxxhdpi-foreground.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+		<preference name="deployment-target" value="12.4.2" />
+		<splash src="res/splashscreens/ios/Default@2x~universal~anyany.png" />
+	    <splash src="res/splashscreens/ios/Default@2x~universal~comany.png" />
+	    <splash src="res/splashscreens/ios/Default@2x~universal~comcom.png" />
+	    <splash src="res/splashscreens/ios/Default@3x~universal~anyany.png" />
+	    <splash src="res/splashscreens/ios/Default@3x~universal~anycom.png" />
+	    <splash src="res/splashscreens/ios/Default@3x~universal~comany.png" />
+        <icon src="res/icons/ios/icon-small.png" width="29" height="29" />
+        <icon src="res/icons/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/icons/ios/icon-50.png" width="50" height="50" />
+        <icon src="res/icons/ios/icon.png" width="57" height="57" />
+        <icon src="res/icons/ios/icon-small@2x.png" width="58" height="58" />
+		<icon src="res/icons/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/icons/ios/icon-72.png" width="72" height="72" />
+        <icon src="res/icons/ios/icon-76.png" width="76" height="76" />
+        <icon src="res/icons/ios/icon-40@2x.png" width="80" height="80" />
+        <icon src="res/icons/ios/icon-small@3x.png" width="87" height="87" />
+        <icon src="res/icons/ios/icon-50@2x.png" width="100" height="100" />
+        <icon src="res/icons/ios/icon@2x.png" width="114" height="114" />
+        <icon src="res/icons/ios/icon-60@2x.png" width="120" height="120" />
+        <icon src="res/icons/ios/icon-72@2x.png" width="144" height="144" />
+        <icon src="res/icons/ios/icon-76@2x.png" width="152" height="152" />
+        <icon src="res/icons/ios/icon-167.png" width="167" height="167" />
+        <icon src="res/icons/ios/icon-83.5@2x.png" width="167" height="167" />
+        <icon src="res/icons/ios/icon-60@3x.png" width="180" height="180" />
+    </platform>
+	<platform name="windows">
+		<splash src="res/splashscreens/windows/splashscreen.png" target="SplashScreen" />
+    	<splash src="res/splashscreens/windows/splashscreenphone.png" target="SplashScreenPhone" />
+		<icon src="res/icons/windows/logo.png" width="150" height="150" />
+        <icon src="res/icons/windows/smalllogo.png" width="30" height="30" />
+        <icon src="res/icons/windows/storelogo.png" width="50" height="50" />
+        <icon src="res/icons/windows/Square44x44Logo.scale-100.png" width="44" height="44" />
+        <icon src="res/icons/windows/Square44x44Logo.scale-240.png" width="106" height="106" />
+        <icon src="res/icons/windows/Square70x70Logo.scale-100.png" width="70" height="70" />
+        <icon src="res/icons/windows/Square71x71Logo.scale-100.png" width="71" height="71" />
+        <icon src="res/icons/windows/Square71x71Logo.scale-240.png" width="170" height="170" />
+        <icon src="res/icons/windows/Square150x150Logo.scale-240.png" width="360" height="360" />
+        <icon src="res/icons/windows/Square310x310Logo.scale-100.png" width="310" height="310" />
+        <icon src="res/icons/windows/Wide310x150Logo.scale-100.png" width="310" height="150" />
+        <icon src="res/icons/windows/Wide310x150Logo.scale-240.png" width="744" height="360" />
+    </platform>
+	<engine name="android" spec="latest" />
+	<engine name="ios" spec="latest" />
+	<engine name="windows" spec="latest" />
+</widget>

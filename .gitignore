@@ -1,0 +1,15 @@
+/node_modules/
+
+/dist/
+
+.git
+
+.DS_Store
+
+.idea/*
+
+npm-debug.log
+
+/virtual/
+
+yarn-error.log

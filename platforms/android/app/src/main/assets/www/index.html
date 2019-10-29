@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link type='text/css' rel='stylesheet' href='index.css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<!-- <meta http-equiv="cache-control" content="no-cache"> -->
+		<!-- <meta http-equiv="expires" content="0"> -->
+	</head>
+	<body oncontextmenu="return false;">
+		<!-- START CUSTOM HTML -->
+
+		<form style="display:none">
+			<p>
+				<img src='icon.png'>
+			</p>
+			<p>
+				<b>Welcome to CoreDover</b>
+			</p>
+			<p>
+				This is a demo app that demonstrate's CoreDover's features.
+				Have a play with the code and spend some time figuring out
+				how all of the Javascript polyfill functions work.
+			</p>
+			<fieldset>
+				<legend>Reload Webview</legend>
+				<button type='button' id='reload'>Reload webview</button>
+			</fieldset>
+			<fieldset>
+				<legend>Console Logging</legend>
+				Log entry text:
+				<input type='text' id='log_text'>
+				<button type='button' id='log_apply'>Log message</button>
+			</fieldset>
+			<fieldset>
+				<legend>HTTP Response Code</legend>
+				HTTP response code (integer):
+				<input type='number' id='response_code_int'>
+				<button type='button' id='response_code_check'>Check code</button>
+			</fieldset>
+			<fieldset>
+				<legend>Ajax Request</legend>
+				URI to retrieve (URL):
+				<input type='url' id='ajax_uri'>
+				Expected response format:
+				<select id='ajax_type'>
+					<option value='plain'>Plain text</option>
+					<option value='JSON'>JSON</option>
+				</select>
+				<button type='button' id='ajax_send'>Send request</button>
+			</fieldset>
+			<fieldset>
+				<legend>Loading screen</legend>
+				<button type='button' id='loading'>Show loading screen</button>
+			</fieldset>
+			<fieldset>
+				<legend>In-App Browser</legend>
+				<button type='button' id='inappbrowser_blank'>In-app webview</button>
+				<button type='button' id='inappbrowser_system'>System default</button>
+			</fieldset>
+			<fieldset>
+				<legend>Network Status</legend>
+				<button type='button' id='network'>Get network status</button>
+			</fieldset>
+			<fieldset>
+				<legend>Dialogues</legend>
+				<button type='button' id='dialogue_alert'>Alert</button>
+				<button type='button' id='dialogue_confirm'>Confirm</button>
+				<button type='button' id='dialogue_prompt'>Prompt</button>
+			</fieldset>
+			<fieldset>
+				<legend>Open Email Client</legend>
+				Recipient email address:
+				<input type='email' id='email_to'>
+				Subject:
+				<input type='email' id='email_subject'>
+				<button type='button' id='email_open'>Open email client</button>
+			</fieldset>
+			<fieldset>
+				<legend>Log</legend>
+				<textarea id='log' rows='10'></textarea>
+			</fieldset>
+		</form>
+
+		<!-- END CUSTOM HTML -->
+		<script type='text/javascript' src='cordova.js'></script>
+		<script type='text/javascript' src='jQuery.js'></script>
+		<script type='text/javascript' src='CoreDover.js'></script>
+		<script type='text/javascript' src='index.js'></script>
+	</body>
+</html>

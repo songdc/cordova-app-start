@@ -1,0 +1,60 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+* {
+	font-family: arial;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #EEE;
+	padding: 20px;
+}
+p {
+	font: 16px/1.4 arial;
+	margin-bottom: 20px;
+	text-align: center;
+}
+p b {
+	font-weight: bold;
+}
+button,
+input[type='url'],
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea,
+select {
+	display: block;
+	font: 20px/1.4 arial;
+	margin-bottom: 2px;
+	padding: 4px 10px 4px 10px;
+	background-color: #FFF;
+	border: 1px solid #666;
+	border-radius: 5px;
+	width: 100%;
+}
+button {
+	background-color: #69C;
+	color: #FFF;
+}
+textarea {
+	resize: none;
+	font: 14px/1.4 arial;
+}
+fieldset {
+	background-color: #FFF;
+	border: 1px solid #666;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+legend {
+	color: #666;
+	font: 18px/1 arial;
+	padding: 4px 10px 4px 10px;
+	background-color: #FFF;
+	border: 1px solid #666;
+	border-radius: 5px;
+}
