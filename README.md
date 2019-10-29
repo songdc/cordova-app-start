@@ -34,5 +34,8 @@ platforms/android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 ## 支持特性
-- 加载远程 Web 服务功能开箱即用
-- 已配置
+- ✅ 加载远程 Web 服务功能开箱即用
+- ✅ 避免打开系统浏览器
+- ✅ 隐藏 Android 加载时放大缩小按钮
+- ✅ 退出 webview 时直接退出 app 而非停留在 index.html 加载白屏
+- ✅ 屏蔽安全策略（Android9+）也可访问
